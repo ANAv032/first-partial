@@ -1,0 +1,9 @@
+def name():
+print ("Hello! whats your name?")
+variable = inpunt()
+print ("What degrees is it?")
+number = input ()
+result = int (number)+32
+print("the weather is ", result)
+
+name()
