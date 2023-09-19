@@ -1,0 +1,16 @@
+#time to advance 2 meters diferent iteration, calculate the velocity in each iteration and the avrage veloity 
+# Initialize a list to store velocities
+
+def name():
+num_iterations = 3
+input=velocities = [15,17,21]
+distance_per_iteration = 2
+iteration_times = [15, 17, 21]  
+for time in iteration_times:
+    velocity = distance_per_iteration / time
+    velocities.append(velocity)
+average_velocity = sum(velocities) /num_iterations
+print("Velocities in each iteration:")
+for i, velocity in enumerate(velocities):
+    print(f"Iteration {i+1}: {velocity:.2f} m/s")
+print(f"Average Velocity: {average_velocity:.2f} m/s")
